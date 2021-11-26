@@ -1,20 +1,133 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <title>Proyecto coder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web dedicado a la Serie de HBO Game of Thrones donde se detallan el contenido de la serie y sus temporadas incluso un mapa interactivo">
+    <meta name="keywords"  content="GAME, OF, THRONES, HBO, SERIE, JON SNOW, DAENERYS, MURALLA, WESTEROS, TARGARYEN, CERSEI, LANNISTER, JAIME, BARATHEON, TRONO, TRONO DE HIERRO, CITTADELLE, NORTE, STARK, TULLY, ARRYN, GAME OF THRONES">
+	<title>Game of Thrones | HBO</title>
     <link rel="stylesheet" href="css/style.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
 
 <body>
 
-<h1>Hola Mundo</h1>
 
-<h2>Primer parrafo</h2>
+    <header> <!--Barra de navegacion-->
+        <nav>
+            <ul>
+                <li><a href=extras.html>Extras</a></li>
+                <li><a href=map.html>Mapa Interactivo</a></li>
+                <li class="logoContain"><a class="logo" href=index.html><img src="images/logo.png"></a></li>
+                <li><a href=temporadas.html>Temporadas</a></li>
+                <li><a href=personajes.html>Personajes</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<img src="imagen1.jpeg" alt="imagen-lol">
+	<section class="seccion1"><!--Titulo-->
+        <img class="titulo" src="images/palabra2.png" alt="game-of-thrones"></div>
+    </section>
+
+    <section class="seccion2 "><!--Primer contenido-->
+			<img src="images/p1.jpeg" alt="game of thrones - ned stark">
+      <div class="seccion__text seccion--color p1">Game of Thrones sigue las lineas argumentales de Cancion de Hielo y Fuego. La historia tiene lugar en westeros,
+         un continente donde las estaciones pueden durar anos, y se centra en las violentas luchas dinasticas
+          que surgen entre las familias nobiliarias por el control del Trono de Hierro.</div>
+      <div class="seccion__text seccion--color p2">Mientras se mantiene una guerra civil para conseguir el poder, detras del Muro que divide westeros y la zona norte,
+         los muertos amenazan con librar la batalla contra los vivos. Daenerys Targaryen, la hija del antiguo rey, regresa a Westeros para reclamar su lugar
+          y asi vengar la muerte de su familia.</div>
+      <img src="images/p2.jpg" alt="game of thrones - rey nocturno">
+      <img src="images/p3.jpg" alt="game of thrones - daenerys targaryen">
+      <div class="seccion__text seccion--color p3">Poder, sangre, traiciones, venganzas, amores y desamores. Entre otras tantas cosas, son las que le dan escencia a 
+        esta serie de HBO. La cuidadosa eleccion del reparto, los escenarios elegidos para el rodaje, los vestuarios diseñados para la ocacion, hasta los
+        recaudos tomados en los dialogos de los personajes, hacen a esta serie una obra de arte.
+      </div>
+    </section>
+
+    <section class="seccion3"><!--Contenido corto-->
+
+      <div class="valar">
+        
+        <div class="imgvalar morghulis"></div>
+        
+        <div>Valar Morghulis</div>
+
+      </div>
+
+      <div class="valar" >
+        
+        <div class="imgvalar dohaeris"></div>
+        
+        <div>Valar dohaeris</div>
+
+      </div>
+
+    </section>
+
+    <section class="seccion4"><!--Segundo contenido-->
+			<img src="images/p4.jpg" alt="game of thrones - ned stark">
+      <div class="seccion__text seccion--color2 p1">La dificultad que estriba llevar a la pantalla una obra con tantos protagonistas y entornos se suple con un efectivo montaje,
+         que traslada los diferentes capitulos, de manera que el flujo temporal y espacial de la historia se sigue sin problemas</div>
+      <div class="seccion__text seccion--color2 p2">La ambientacion atemporal, en un mundo con el que solo compartimos dos estaciones, nos mantiene expectantes de la incorporacion
+         de la magia en la historia, la cual se incorpora de manera perfecta con la llegada del largo invierno </div>
+      <img src="images/p5.jpg" alt="game of thrones - rey nocturno">
+      <img src="images/p6.jpg" alt="game of thrones - daenerys targaryen">
+      <div class="seccion__text seccion--color2 p3">Con una grandilocuente puesta en escena, la serie traslada al espectador a los parajes de los siete reinos. Los planos generales
+         nos mostraran unos  escenarios que asombran por su delicada estética. Lo digital confluye con el entorno natural en armoniosos paisajes de una belleza que, en ocasiones, sobrecoge</div>
+    </section>
+
+    <section class="formulario"><!--formulario-->
+        <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+              <div class="col-sm-10">
+                <input type="fname" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Comentario</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Privacidad</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Abierto a respuestas
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Cerrado a respuestas
+                  </label>
+                </div>
+                
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Recibir notificaciones
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </section>
+        
+    <footer>
+         Copyright
+    </footer>
+
+    <script type="text/javascript" src="js.js"></script>
 
 </body>
-
 </html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  @font-face {
+    font-family: "Got";
+    src: url("../got.ttf"); }
+
+ 
+  /*fondo default*/  
+  body {
+    background-image: url(../images/fondomadera.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Got !important; }
+  
+  /*navegacion principal*/
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 100; }
+  
+  nav ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2.8% 14%;
+    background-image: url(../images/navbar.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box; }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit; }
+  
+  nav li {
+    display: inline-block;
+    padding: 0.5%;
+    background-color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    font-family: Got;
+    font-size: 100%;
+    color: #fff;
+    border-radius: 15%;
+    box-sizing: border-box; }
+  
+  nav li:hover {
+    background-color: #fff;
+    color: #000; }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white; }
+  
+  /*navegacion de temporadas y personajes*/
+  .logo img {
+    position: absolute;
+    width: 18%;
+    top: 0%;
+    left: 41.2%; }
+  
+  .nav2 ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2% 14%;
+    background-image: url(../images/headNavPerg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box; }
+  
+  .nav2 li {
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    border-radius: 15%;
+    box-sizing: border-box;
+    padding: 1%; }
+  
+  .nav2 li:hover {
+    background-color: black;
+    color: white; }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2.6%;
+    background-image: url(../images/fotterperg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  
+  @import "index";
+  @import "temporadas";
+  @import "personajes";
+  @import "mapa";
+  @import "extras";
+  @import "_functions";
