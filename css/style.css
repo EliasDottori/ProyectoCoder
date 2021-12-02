@@ -530,10 +530,98 @@ footer {
   font-size: 5vw; }
 
 .personajes {
-  height: 40vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-template-rows: repeat(2, 46%);
+  grid-gap: 2%;
+  justify-content: center;
+  align-items: center;
+  place-content: center; }
+
+.per {
+  background-image: url(../images/estandarte.png);
+  background-size: 100% 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1vw;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
+  box-sizing: border-box;
+  transition: transform  0.5s ease-in-out; }
+
+.per:hover {
+  transform: scale(1.2); }
+
+.per1 {
+  padding: 2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
+  border-radius: 2px 5px; }
+
+.perall {
+  font-size: 5vw;
+  width: 100%;
+  height: 100;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column; }
+
+.imgall {
+  padding: 2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
+  border-radius: 2px 5px; }
+
+.jon {
+  background-image: url(../images/personajes/jon.jpg); }
+
+.daenerys {
+  background-image: url(../images/personajes/daenerys.jpg); }
+
+.cersei {
+  background-image: url(../images/personajes/cersei.jpg); }
+
+.tyrion {
+  background-image: url(../images/personajes/tyrion.jpg); }
+
+.sansa {
+  background-image: url(../images/personajes/sansa.jpg); }
+
+.arya {
+  background-image: url(../images/personajes/arya.jpg); }
+
+.jaime {
+  background-image: url(../images/personajes/jaime.jpg); }
+
+.bran {
+  background-image: url(../images/personajes/bran.jpg); }
+
+.ned {
+  background-image: url(../images/personajes/ned.jpg); }
+
+.melisandre {
+  background-image: url(../images/personajes/melisandre.jpg); }
 
 /*----------------------pestañas mapa-----------------------*/
 /*declaracion de variables*/
@@ -814,5 +902,16 @@ footer {
   align-items: center;
   padding-left: 19%;
   padding-right: 19%; }
+
+.divisor {
+  background-image: linear-gradient(#336B7A, #00172A);
+  background-size: 100% 100%;
+  height: 65%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 /*# sourceMappingURL=style.css.map */
