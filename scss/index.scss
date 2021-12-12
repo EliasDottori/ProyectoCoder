@@ -1,11 +1,13 @@
 /*pestaña inicio*/
-  /*seccion 1*/
+  /*seccion 1*/ 
 
   $size: 100% 100%;
   $color: rgb(221, 221, 221);
   $color: white !default;
   
-  
+  a:link, a:visited, a:active {
+    text-decoration:none!important;
+}
   .seccion1 {
     position: relative;
     height: 100vh;

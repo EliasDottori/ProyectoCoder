@@ -112,6 +112,9 @@ footer {
 
 /*pestaña inicio*/
 /*seccion 1*/
+a:link, a:visited, a:active {
+  text-decoration: none !important; }
+
 .seccion1 {
   position: relative;
   height: 100vh;
@@ -508,7 +511,7 @@ footer {
   width: 70vw;
   height: 100%;
   padding-top: 8.5%;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   margin: 0 auto;
   background-image: url(../images/pageperg.png);
   background-repeat: repeat-y;
@@ -535,7 +538,7 @@ footer {
   height: 80vh;
   display: grid;
   grid-template-columns: 19% 19% 19% 19% 19%;
-  grid-template-rows: repeat(2, 46%);
+  grid-template-rows: 46% 46%;
   grid-gap: 2%;
   justify-content: center;
   align-items: center;
@@ -892,26 +895,130 @@ footer {
   font-size: 200%; }
 
 /*pestaña extras*/
-.extra {
-  height: 100vh;
+.artextras {
+  height: 100%;
   background-image: url(../images/fondoaleat.jpg);
   background-size: 100% 100%;
   color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding-left: 19%;
-  padding-right: 19%; }
+  padding-right: 19%;
+  padding-bottom: 2%;
+  background-repeat: repeat-y;
+  box-sizing: border-box; }
+
+.extra {
+  position: relative;
+  display: flex;
+  justify-content: space-around; }
 
 .divisor {
+  text-decoration: none !important;
+  margin-top: 15%;
+  margin-bottom: 4%;
   background-image: linear-gradient(#336B7A, #00172A);
   background-size: 100% 100%;
-  height: 65%;
+  height: 20vh;
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
+
+/*IMAGENES*/
+.extraimg {
+  box-sizing: border-box;
+  height: 63vh;
+  width: 61.1vw;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto; }
+
+.allimg {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover; }
+
+.imgext1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+  background-image: url(../images/p1.jpeg); }
+
+.imgext2 {
+  grid-row: 3/5;
+  grid-column: 5/7;
+  background-image: url(../images/p3.jpg); }
+
+.imgext3 {
+  background-image: url(../images/Temporadas/t11.jpg); }
+
+.imgext4 {
+  background-image: url(../images/Temporadas/t12.jpg); }
+
+.imgext5 {
+  background-image: url(../images/Temporadas/t21.jpg); }
+
+.imgext6 {
+  background-image: url(../images/Temporadas/t22.jpg); }
+
+.imgext7 {
+  background-image: url(../images/Temporadas/t31.jpg); }
+
+.imgext8 {
+  background-image: url(../images/Temporadas/t32.jpg); }
+
+.imgext9 {
+  background-image: url(../images/Temporadas/t41.jpg); }
+
+.imgext10 {
+  background-image: url(../images/Temporadas/t42.jpg); }
+
+.imgext11 {
+  background-image: url(../images/Temporadas/t51.jpg); }
+
+.imgext12 {
+  background-image: url(../images/Temporadas/t52.jpg); }
+
+.imgext13 {
+  background-image: url(../images/Temporadas/t61.jpg); }
+
+.imgext14 {
+  background-image: url(../images/Temporadas/t62.jpg); }
+
+.imgext15 {
+  background-image: url(../images/Temporadas/t71.jpg); }
+
+.imgext16 {
+  background-image: url(../images/Temporadas/t72.jpg); }
+
+.imgext17 {
+  background-image: url(../images/Temporadas/t81.jpg); }
+
+.imgext18 {
+  background-image: url(../images/Temporadas/t82.jpg); }
+
+/*VIDEOS*/
+.extravideo {
+  box-sizing: border-box; }
+
+.videosection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.textvideo {
+  text-align: center;
+  font-size: 2vw; }
+
+.videosection div {
+  padding: 0.5%; }
+
+iframe {
+  width: 30vw;
+  height: 35vh; }
 
 /*# sourceMappingURL=style.css.map */
