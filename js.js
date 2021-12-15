@@ -121,3 +121,20 @@ hover.addEventListener("mouseout", () => {
 }, false)
 
 
+function menunav() {
+  var x = document.getElementById("navmenu");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function menunav2() {
+  var x = document.getElementById("navmenu");
+  if (x.className === "topnav topnav2") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav topnav2";
+  }
+}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Mapa Interactivo | Game of Thrones</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sitio web dedicado a la Serie de HBO Game of Thrones donde se detallan el contenido de la serie y sus temporadas incluso un mapa interactivo">
@@ -11,15 +12,17 @@
 </head>
 <body class="bodymap">
 	<header>
-        <nav>
-            <ul>
-                <li><a href=extras.html>Extras</a></li>
-                <li><a href=map.html>Mapa Interactivo</a></li>
-                <li class="logoContain"><a class="logo" href=index.html><img src="images/logo.png"></a></li>
-                <li><a href=temporadas.html>Temporadas</a></li>
-                <li><a href=personajes.html>Personajes</a></li>
-            </ul>
-        </nav>
+        <nav class="topnav" id="navmenu">
+            <a class="extrasnav" href=extras.html>Extras</a>
+            <a href=map.html>Mapa Interactivo</a>
+            <a class="active logo" href=index.html ><img src="images/logo.png"></a>
+            <a href=temporadas.html>Temporadas</a>
+            <a href=personajes.html>Personajes</a>
+            <a href="javascript:void(0);" class="icon" onclick="menunav()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </nav>
+        
     </header>
 
     <div class="compensador"></div><!--Compensador para que el mapa quede en linea-->
