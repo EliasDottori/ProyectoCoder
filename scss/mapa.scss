@@ -12,222 +12,222 @@ $timeanimation: 0.5s;
     background-size: 100% 100%;
     box-sizing: border-box; }
   
-  .bodymap {
-    overflow-x: hidden; }
-  
-  .compensador {
-    padding: 2%; }
-  
+.bodymap {
+  overflow-x: hidden; }
+
+.compensador {
+  padding: 2%; }
+
 
 
 
 
 /*DORNE*/
-  #dorne {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/dornezona.png);
-    background-size: 100% 100%;
-    height: 56%;
-    width: 56%;
-    left: 7%;
-    top: 47.5%;
-    transition: transform $timeanimation  ease-in-out; }
-  
-  #dorne1 {
-    position: absolute;
-    background-image: url(../images/casas/martell.png);
-    background-size: 100% 100%;
-    height: 15%;
-    width: 10%;
-    left: 27%;
-    top: 70%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+#dorne {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/dornezona.png);
+  background-size: 100% 100%;
+  height: 56%;
+  width: 56%;
+  left: 7%;
+  top: 47.5%;
+  transition: transform $timeanimation  ease-in-out; }
 
-
-
-
-  /*TYRELL*/
-  #tyrell {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/dominiozona.png);
-    background-size: 100% 100%;
-    height: 23%;
-    width: 53%;
-    left: 6%;
-    top: 31.5%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #tyrell1 {
-    position: absolute;
-    background-image: url(../images/casas/tyrel.png);
-    background-size: 100% 100%;
-    height: 9%;
-    width: 11%;
-    left: 45%;
-    top: 35%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+#dorne1 {
+  position: absolute;
+  background-image: url(../images/casas/martell.png);
+  background-size: 100% 100%;
+  height: 15%;
+  width: 10%;
+  left: 27%;
+  top: 70%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
 
-  /*BARATHEON*/
-  #baratheon {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/tormentazona.png);
-    background-size: 100% 100%;
-    height: 29%;
-    width: 43%;
-    left: 33%;
-    top: 48.5%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #baratheon1 {
-    position: absolute;
-    background-image: url(../images/casas/baratheon.png);
-    background-size: 100% 100%;
-    height: 15%;
-    width: 9%;
-    left: 64%;
-    top: 51%;
-    box-sizing: content-box;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+/*TYRELL*/
+#tyrell {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/dominiozona.png);
+  background-size: 100% 100%;
+  height: 23%;
+  width: 53%;
+  left: 6%;
+  top: 31.5%;
+  transition: transform $timeanimation ease-in-out; }
+
+#tyrell1 {
+  position: absolute;
+  background-image: url(../images/casas/tyrel.png);
+  background-size: 100% 100%;
+  height: 9%;
+  width: 11%;
+  left: 45%;
+  top: 35%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
-  /*KINGLANDING*/
-  #kinglanding {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/kingzona.png);
-    background-size: 100% 100%;
-    height: 24%;
-    width: 34%;
-    left: 52%;
-    top: 30%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #kinglanding1 {
-    position: absolute;
-    background-image: url(../images/casas/kinglanding.png);
-    background-size: 100% 100%;
-    height: 12%;
-    width: 5%;
-    left: 57%;
-    top: 37%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+
+
+/*BARATHEON*/
+#baratheon {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/tormentazona.png);
+  background-size: 100% 100%;
+  height: 29%;
+  width: 43%;
+  left: 33%;
+  top: 48.5%;
+  transition: transform $timeanimation ease-in-out; }
+
+#baratheon1 {
+  position: absolute;
+  background-image: url(../images/casas/baratheon.png);
+  background-size: 100% 100%;
+  height: 15%;
+  width: 9%;
+  left: 64%;
+  top: 51%;
+  box-sizing: content-box;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
-  /*LANNISTER*/
-  #lannister {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/casterlyzona.png);
-    background-size: 100% 100%;
-    height: 11.5%;
-    width: 23%;
-    left: 33.5%;
-    top: 24%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #lannister1 {
-    position: absolute;
-    background-image: url(../images/casas/lannister.png);
-    background-size: 100% 100%;
-    height: 14%;
-    width: 10%;
-    left: 32%;
-    top: 22%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+
+/*KINGLANDING*/
+#kinglanding {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/kingzona.png);
+  background-size: 100% 100%;
+  height: 24%;
+  width: 34%;
+  left: 52%;
+  top: 30%;
+  transition: transform $timeanimation ease-in-out; }
+
+#kinglanding1 {
+  position: absolute;
+  background-image: url(../images/casas/kinglanding.png);
+  background-size: 100% 100%;
+  height: 12%;
+  width: 5%;
+  left: 57%;
+  top: 37%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
-  /*TULLY*/
-  #tully {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/rioszona.png);
-    background-size: 100% 100%;
-    height: 17%;
-    width: 22.5%;
-    left: 51%;
-    top: 22%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #tully1 {
-    position: absolute;
-    background-image: url(../images/casas/tully.png);
-    background-size: 100% 100%;
-    height: 12.5%;
-    width: 8.5%;
-    left: 65%;
-    top: 27%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+
+/*LANNISTER*/
+#lannister {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/casterlyzona.png);
+  background-size: 100% 100%;
+  height: 11.5%;
+  width: 23%;
+  left: 33.5%;
+  top: 24%;
+  transition: transform $timeanimation ease-in-out; }
+
+#lannister1 {
+  position: absolute;
+  background-image: url(../images/casas/lannister.png);
+  background-size: 100% 100%;
+  height: 14%;
+  width: 10%;
+  left: 32%;
+  top: 22%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
-  /*ARRYN*/
-  #arryn {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/arrynzona.png);
-    background-size: 100% 100%;
-    height: 18%;
-    width: 23%;
-    left: 70%;
-    top: 24%;
-    transition: transform $timeanimation ease-in-out; }
-  
-  #arryn1 {
-    position: absolute;
-    background-image: url(../images/casas/Arryn.png);
-    background-size: 100% 100%;
-    height: 10%;
-    width: 8.5%;
-    left: 72%;
-    top: 33%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+
+/*TULLY*/
+#tully {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/rioszona.png);
+  background-size: 100% 100%;
+  height: 17%;
+  width: 22.5%;
+  left: 51%;
+  top: 22%;
+  transition: transform $timeanimation ease-in-out; }
+
+#tully1 {
+  position: absolute;
+  background-image: url(../images/casas/tully.png);
+  background-size: 100% 100%;
+  height: 12.5%;
+  width: 8.5%;
+  left: 65%;
+  top: 27%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
 
 
 
 
-  /*STARK*/
-  #stark {
-    position: absolute;
-    opacity: 0;
-    background-image: url(../images/zonas/nortezona.png);
-    background-size: 100% 100%;
-    height: 18%;
-    width: 46%;
-    left: 54%;
-    top: 9.5%;
-    transition: transform  ease-in-out; }
-  
-  #stark1 {
-    position: absolute;
-    background-image: url(../images/casas/stark.png);
-    background-size: 100% 100%;
-    height: 8%;
-    width: 6%;
-    left: 70%;
-    top: 15%;
-    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
-  
+
+/*ARRYN*/
+#arryn {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/arrynzona.png);
+  background-size: 100% 100%;
+  height: 18%;
+  width: 23%;
+  left: 70%;
+  top: 24%;
+  transition: transform $timeanimation ease-in-out; }
+
+#arryn1 {
+  position: absolute;
+  background-image: url(../images/casas/Arryn.png);
+  background-size: 100% 100%;
+  height: 10%;
+  width: 8.5%;
+  left: 72%;
+  top: 33%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
+
+
+
+
+
+/*STARK*/
+#stark {
+  position: absolute;
+  opacity: 0;
+  background-image: url(../images/zonas/nortezona.png);
+  background-size: 100% 100%;
+  height: 18%;
+  width: 46%;
+  left: 54%;
+  top: 9.5%;
+  transition: transform  ease-in-out; }
+
+#stark1 {
+  position: absolute;
+  background-image: url(../images/casas/stark.png);
+  background-size: 100% 100%;
+  height: 8%;
+  width: 6%;
+  left: 70%;
+  top: 15%;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75)); }
+
 
 
 
@@ -235,83 +235,94 @@ $timeanimation: 0.5s;
 
 /*simbolo*/
 
-  .simbol {
-    transition: transform $timeanimation; }
-  
-  .simbol:hover {
-    transform: scale(1.2); }
-  
-  .dorne, .tyrell, .baratheon, .kinglanding, .lannister, .tully, .arryn, .stark {
-    transform: scale(1.05);
-    animation-name: opc1;
-    animation-duration: $timeanimation;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s; }
-  
-  @keyframes opc1 {
-    from {
-      opacity: 0; }
-    to {
-      opacity: 1; } }
-  .tyrell0, .baratheon0, .dorne0, .kinglanding0, .lannister0, .tully0, .arryn0, .stark0 {
-    animation-name: opc0;
-    animation-duration: $timeanimation;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s; }
-  
-  @keyframes opc0 {
-    from {
-      opacity: 1; }
-    to {
-      opacity: 0; } }
-  
-  
-  
-  
-      
-  /*PAPIRO*/
-  .papiro {
-    position: relative;
-    background-image: url(../images/papiro.png);
-    background-size: 100% 100%;
-    height: 30%;
-    width: 30%;
-    left: 70%;
-    top: 70%;
-    padding: 5%;
-    box-sizing: border-box; }
-  
-  #dorneP, #tyrellP, #baratheonP, #kinglandingP, #lannisterP, #tullyP, #arrynP, #starkP {
-    position: absolute;
-    opacity: 0;
-    text-align: center;
-    font-size: 80%;
-    transition: transform $timeanimation ease-in-out;
-    box-sizing: border-box;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); }
-  
-  .papiroT {
-    position: relative;
-    background-image: url(../images/papiro.png);
-    background-size: 100% 100%;
-    height: 25%;
-    width: 30%;
-    left: 1%;
-    top: -28%;
-    padding-top: 2%;
-    box-sizing: border-box; }
-  
-  #dorneT, #tyrellT, #baratheonT, #kinglandingT, #lannisterT, #tullyT, #arrynT, #starkT {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    text-align: center;
-    font-size: 80%;
-    transition: transform $timeanimation ease-in-out;
-    box-sizing: border-box;
-    font-size: 200%; }
+.simbol {
+  transition: transform $timeanimation; }
+
+.simbol:hover {
+  transform: scale(1.2); }
+
+.dorne, .tyrell, .baratheon, .kinglanding, .lannister, .tully, .arryn, .stark {
+  transform: scale(1.05);
+  animation-name: opc1;
+  animation-duration: $timeanimation;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s; }
+
+@keyframes opc1 {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.tyrell0, .baratheon0, .dorne0, .kinglanding0, .lannister0, .tully0, .arryn0, .stark0 {
+  animation-name: opc0;
+  animation-duration: $timeanimation;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s; }
+
+@keyframes opc0 {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+
+
+
+    
+/*PAPIRO*/
+.papiro {
+  position: relative;
+  background-image: url(../images/papiro.png);
+  background-size: 100% 100%;
+  height: 30%;
+  width: 30%;
+  left: 70%;
+  top: 70%;
+  padding: 5%;
+  box-sizing: border-box; }
+
+#dorneP, #tyrellP, #baratheonP, #kinglandingP, #lannisterP, #tullyP, #arrynP, #starkP {
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  font-size: 80%;
+  transition: transform $timeanimation ease-in-out;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.papiroT {
+  position: relative;
+  background-image: url(../images/papiro.png);
+  background-size: 100% 100%;
+  height: 25%;
+  width: 30%;
+  left: 1%;
+  top: -28%;
+  padding-top: 2%;
+  box-sizing: border-box; }
+
+#dorneT, #tyrellT, #baratheonT, #kinglandingT, #lannisterT, #tullyT, #arrynT, #starkT {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-align: center;
+  font-size: 80%;
+  transition: transform $timeanimation ease-in-out;
+  box-sizing: border-box;
+  font-size: 200%; }
+
+  @media only screen and (max-width: 600px) {
+    .bodymap{
+      overflow-y: hidden; 
+      overflow-x: auto;
+    }
+    .map{
+      overflow-y: hidden; 
+      overflow-x: auto;
+    }
+  }

@@ -116,7 +116,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 2%;
-  background-image: url(../images/footer.jpg);
+  background-image: url(../images/navbar.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: white; }
@@ -305,9 +305,10 @@ footer {
   .seccion2, .seccion4 {
     grid-template-rows: repeat(6, 12%);
     grid-template-columns: 1fr;
-    font-size: 60%;
     text-align: center;
-    background-size: 160% 100%; }
+    background-image: none;
+    background-color: #000C12;
+    padding: 1%; }
 
   .p1 {
     grid-row: 1;
@@ -325,7 +326,17 @@ footer {
     width: 50%;
     height: 100%;
     display: block;
-    margin: auto; } }
+    margin: auto; }
+
+  .seccion__text {
+    font-size: 2vw; }
+
+  .seccion3 {
+    flex-direction: column; }
+
+  .valar {
+    width: 60%;
+    font-size: 3vw; } }
 /*formulario boostrap*/
 .formulario {
   position: relative;
@@ -916,6 +927,14 @@ footer {
   box-sizing: border-box;
   font-size: 200%; }
 
+@media only screen and (max-width: 600px) {
+  .bodymap {
+    overflow-y: hidden;
+    overflow-x: auto; }
+
+  .map {
+    overflow-y: hidden;
+    overflow-x: auto; } }
 /*pestaña extras*/
 .artextras {
   height: 100%;
