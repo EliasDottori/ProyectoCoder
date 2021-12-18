@@ -3,6 +3,7 @@
     height: 100%;
     background-image: url(../images/fondoaleat.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
     color: white;
     padding-left: 19%;
     padding-right: 19%;
@@ -11,6 +12,12 @@
     box-sizing: border-box;
     }
 
+.imgextras{
+  padding-left: 18.5%;
+  padding-right: 18.5%;
+  padding-bottom: 0;
+}
+
 .extra {
    position: relative;
    display: flex;
@@ -18,23 +25,57 @@
 }
 
  .divisor{
-    text-decoration: none!important;
+    color: white;
     margin-top: 15%;
     margin-bottom: 4%;
-    background-image: linear-gradient(#336B7A, #00172A);
+    background-color: #023C4A;
+    background-image: url(../images/boton.jpg);
     background-size: 100% 100%;
-    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
     width: 25%;
+    text-decoration: none;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
- }
+    transition: transform  0.2s ease-in-out;
+  }
 
+  .divisor:hover{
+    transform: scale(1.08);
+  }
+ 
+.dragon{
+  height: 60vh;
+  background-image: url(../images/dragon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
+}
 
+@media only screen and (max-width: 600px) {
+  
+  .artextras{
+    background-color: #000C12;
+    background-image: none;
+    height: 100%;
+    padding: 5%;
+  }
 
+  .extra{
+    flex-direction: column;
+  }
 
+  .divisor{
+    height: 15vh;
+    width: 100%;
+  }
+}
 
 /*IMAGENES*/
 .extraimg{
@@ -44,7 +85,7 @@
    display: grid;
    justify-self: center;
    grid-template-columns: auto auto auto auto auto auto;
-   grid-template-rows:  auto auto auto ;
+   grid-template-rows:  auto auto auto auto ;
 }
 
 .allimg{
@@ -67,6 +108,25 @@
    grid-row: 3/5;
    grid-column: 5/7;
    background-image: url(../images/p3.jpg);
+}
+
+@media only screen and (max-width: 600px) {
+  .extraimg{
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows:  auto auto auto auto auto auto auto auto ;
+    height: 100vh;
+ }
+ .imgext1{
+  grid-row: 1/3;
+  grid-column: 1/3;
+  background-image: url(../images/p1.jpeg);
+}
+
+.imgext2{
+  grid-row: 9/11;
+  grid-column: 1/3;
+  background-image: url(../images/p3.jpg);
+}
 }
 
 .imgext3{
@@ -139,8 +199,15 @@
 
  /*VIDEOS*/
  
+.artextras1{
+  height: 100%;
+}
+
  .extravideo{
    box-sizing: border-box;
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto
  }
 
  .videosection{
@@ -162,3 +229,25 @@
      width: 30vw;
      height: 35vh;
   }
+
+  @media only screen and (max-width: 600px) {
+    .extravideo{
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto;
+    }
+  
+    iframe{
+      width: 90vw;
+    }
+  }
+
+
+  //PROXIMOS LANZAMIENTOS//
+  
+.housedragon{
+    height: 60vh;
+    background-image: url(../images/housedragon.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
