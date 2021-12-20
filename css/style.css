@@ -99,7 +99,7 @@ header {
 
   .topnav2 {
     background-color: transparent;
-    background-image: url(../images/headNavPergChico.png); }
+    background-image: url(../images/HeadNavPergChico.png); }
 
   .topnav.responsive {
     position: relative; }
@@ -115,32 +115,66 @@ header {
     text-align: center; } }
 footer {
   display: flex;
+  height: 14vh;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  flex-direction: column;
   background-image: url(../images/navbar.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: white; }
+  color: white;
+  font-size: 1.5vw;
+  font-family: rubik,helvetica,arial,sans-serif;
+  z-index: 99; }
 
-/*navegacion de temporadas y personajes*/
+.imgcopy {
+  height: 50%;
+  width: 12%;
+  background-image: url(../images/hbo.png);
+  background-size: 100% 100%; }
+
+.imgcopy2 {
+  height: 50%;
+  width: 12%;
+  background-image: url(../images/hbo2.png);
+  background-size: 100% 100%; }
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 17vh;
   width: 100%;
-  padding: 2.6%;
+  padding-top: 2%;
   background-image: url(../images/fotterperg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  box-sizing: border-box; }
+  justify-content: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-size: 1.5vw;
+  font-family: rubik,helvetica,arial,sans-serif; }
 
 @media screen and (max-width: 600px) {
   .footer {
-    background-image: url(../images/HeadNavPergChico.png); } }
+    font-size: 2vw;
+    height: 7vh;
+    background-image: url(../images/HeadNavPergChico.png); }
+
+  .imgcopy {
+    width: 20%; }
+
+  .mapaoff {
+    display: none !important; }
+
+  footer {
+    background-image: none;
+    background-color: black;
+    font-size: 2vw;
+    height: 10vh;
+    padding-top: 3%; } }
 /*pestaña inicio*/
 /*seccion 1*/
 .seccion1 {
@@ -185,7 +219,6 @@ footer {
 
 .seccion__text {
   color: #dddddd;
-  font-size: 0.8vw;
   font-size: 1.2vw;
   font-family: rubik,helvetica,arial,sans-serif;
   line-height: 130%;
@@ -222,38 +255,50 @@ footer {
 /*seccion 3*/
 .seccion3 {
   position: relative;
-  height: 75vh;
+  height: 80vh;
   background-image: url(../images/fondo2bis.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
-  justify-content: space-evenly;
+  padding: 2%;
+  justify-content: space-between;
   align-items: center;
   font-family: Got;
   box-sizing: border-box; }
 
 .valar {
-  background-image: url(../images/estandarte.png);
+  background-image: url(../images/fondodegrad.png);
   background-size: 100% 100%;
   padding: 1%;
   width: 25%;
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.7vw;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
   text-align: center;
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  animation: loop;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s; }
 
+@keyframes loop {
+  0% {
+    transform: translatey(0%); }
+  50% {
+    transform: translateY(-2%); }
+  100% {
+    transform: translateY(0%); } }
 .morghulis {
   background-image: url(../images/morghulis.jpg);
   background-size: 100% 100%;
   position: relative;
-  width: 50%;
+  width: 72%;
   height: 50%; }
 
 .dohaeris {
@@ -262,6 +307,19 @@ footer {
   position: relative;
   width: 72%;
   height: 50%; }
+
+.frase {
+  width: 50%;
+  height: 50%;
+  background-image: url(../images/papiro.png);
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 5%;
+  font-size: 1.2vw;
+  text-align: center; }
 
 /*seccion 4*/
 .seccion4 {
@@ -303,9 +361,6 @@ footer {
   .text1 {
     font-size: 100%; }
 
-  nav li, .nav2 li {
-    font-size: 10%; }
-
   .titulo {
     width: 90%; }
 
@@ -336,13 +391,17 @@ footer {
     margin: auto; }
 
   .seccion__text {
-    font-size: 2vw; }
+    font-size: 2.8vw; }
 
   .seccion3 {
     flex-direction: column; }
 
   .valar {
     width: 60%;
+    font-size: 3vw; }
+
+  .frase {
+    width: 100%;
     font-size: 3vw; } }
 /*formulario boostrap*/
 .formulario {

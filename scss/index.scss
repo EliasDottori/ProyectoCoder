@@ -23,7 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%; }
+    width: 60%;
+  }
   
 
 
@@ -53,7 +54,6 @@
 
   .seccion__text{
     color: $color;
-    font-size: 0.8vw;
     font-size: 1.2vw;
     font-family: rubik,helvetica,arial,sans-serif;
     line-height: 130%;
@@ -107,39 +107,56 @@
   /*seccion 3*/
   .seccion3 {
     position: relative;
-    height: 75vh;
+    height: 80vh;
     background-image: url(../images/fondo2bis.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: $size;
     display: flex;
-    justify-content: space-evenly;
+    padding: 2%;
+    justify-content: space-between;
     align-items: center;
     font-family: Got;
     box-sizing: border-box; }
   
   .valar {
-    background-image: url(../images/estandarte.png);
+    background-image: url(../images/fondodegrad.png);
     background-size: $size;
     padding: 1%;
     width: 25%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.7vw; 
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
     text-align: center;
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
     box-sizing: border-box;
+    animation: loop;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
   }
+@keyframes loop {
+  0%{
+    transform: translatey(0%);
+  }
+  50%{
+    transform: translateY(-2%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
 
   .morghulis {
     background-image: url(../images/morghulis.jpg);
     background-size: $size;
     position: relative;
-    width: 50%;
+    width: 72%;
     height: 50%;
   }
 
@@ -151,6 +168,20 @@
     height: 50%;
   }
 
+  .frase{
+    width: 50%;
+    height: 50%;
+    background-image: url(../images/papiro.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 5%;
+    font-size: 1.2vw;
+    text-align: center;
+
+  }
 
 
 
@@ -199,9 +230,6 @@
     .text1 {
       font-size: 100%; }
   
-    nav li, .nav2 li {
-      font-size: 10%; }
-  
     .titulo {
       width: 90%; }
   
@@ -232,15 +260,20 @@
       margin: auto; }
 
     .seccion__text{
-      font-size: 2vw;
+      font-size: 2.8vw;
     }
 
     .seccion3{
       flex-direction: column;
+
     }
 
     .valar{
       width: 60%;
+      font-size: 3vw;
+    }
+    .frase{
+      width: 100%;
       font-size: 3vw;
     }
   }
