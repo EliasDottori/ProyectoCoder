@@ -102,25 +102,6 @@ stark1.addEventListener("mouseout", () => {
   starkT.className = "stark0";
 }, false)
 
-var hover = document.getElementById("valarD");
-var doha = document.getElementById("doha");
-hover.addEventListener("mouseover", () => {
-  doha.className = "dohaeris";
-}, false)
-hover.addEventListener("mouseout", () => {
-  doha.className = "dohaeris0";
-}, false)
-
-var hover = document.getElementById("valarM");
-var morghu = document.getElementById("morghu");
-hover.addEventListener("mouseover", () => {
-  doha.className = "morghulis";
-}, false)
-hover.addEventListener("mouseout", () => {
-  doha.className = "morghulis0";
-}, false)
-
-
 function menunav() {
   var x = document.getElementById("navmenu");
   if (x.className === "topnav") {
@@ -138,3 +119,4 @@ function menunav2() {
     x.className = "topnav topnav2";
   }
 }
+

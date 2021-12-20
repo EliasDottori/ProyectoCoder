@@ -10,7 +10,7 @@
 body{
   margin: 0;
   font-family: Got!important;
-  letter-spacing: 1px;
+  
 } 
 
 /*fondo default*/  
@@ -43,6 +43,7 @@ header {
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   padding-right: 15%;
+
 }
 
 .topnav a {
@@ -52,6 +53,7 @@ header {
   text-align: center;
   align-items: center;
   padding: 1% 1%;
+  margin: 1.5% 0 1.5% 0;
   text-decoration: none;
   font-size: 17px;
   letter-spacing: normal;
@@ -74,10 +76,12 @@ header {
 
 .topnav2 a{
   color: black;
+  margin-bottom: 3.2%;
 }
 
 .topnav2{
   background-image: url(../images/headNavPerg.png);
+  height: 13vh;
 }
 
 .logo img {

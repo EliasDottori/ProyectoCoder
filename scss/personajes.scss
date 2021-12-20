@@ -11,7 +11,9 @@
   background-repeat: repeat-y;
   background-position: center;
   background-size: 100% 50%;
-  font-family: Got; }
+  font-family: Got; 
+  letter-spacing: 2px;
+}
 
 
   .tituloper{
@@ -26,6 +28,7 @@
   background-repeat: no-repeat;
   padding: 5%;
   font-size: 5vw;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
 }
 
 .personajes{
@@ -39,6 +42,7 @@
   justify-content: center;
   align-items: center;
   place-content: center;
+
 }
 
 .per {
@@ -87,6 +91,7 @@
   grid-template-columns: repeat(3, 30%);
   grid-template-rows: repeat(4, 23%);
   grid-gap: 2%;
+  padding-top: 15%;
 }
 
 .nombreper{
@@ -96,6 +101,8 @@
   font-size: 4vw;
   grid-column: 1/4;
   grid-row: 1;
+  
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
 }
 
 .imgall{
@@ -109,17 +116,94 @@
   grid-column: 1/2;
   grid-row: 2/4;
 }
-
-.textper{
-  
+.textper{ 
   grid-column: 2/4;
   grid-row: 2/4;
-  font-size: 20px;
+  font-size: 1.5vw;
+  font-family: rubik,helvetica,arial,sans-serif;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.fotterper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/4;
+  grid-row: 4;
+  font-size: 2vw; 
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
+}
+
+.button{
+  position: fixed;
+  height: 10vh;
+  width: 10vw;
+  left: 85%;
+  top: 75%;
+  background-image: linear-gradient(#feac48, #ffdd9f);
+  display: flex;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.75));
 }
 
 
 
-
+@media only screen and (max-width: 600px) {
+  .fondoPer{
+      width: 94vw;
+  }
+  .tituloper{
+    font-size: 7vw;
+  }
+  .personajes{
+    grid-template-rows: 19% 19% 19% 19% 19%;
+    grid-template-columns: 46% 46%;
+    height: 140vh;
+  }
+  .per{
+    font-size: 3.1vw;
+  }
+  .perall{
+    grid-template-columns: 90%;
+    grid-template-rows: 10% 30% auto 10%;
+  }
+  .nombreper{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 5vw;
+  }
+  .imgall{
+    grid-column: 1;
+    grid-row: 2;
+    background-size: 50% 100%;
+  }
+  .textper{
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 2.8vw;
+  }
+  .fotterper{
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 3.3vw;
+  }
+  .button{
+    position: fixed;
+    height: 6vh;
+    width: 15vw;
+    font-size: 70%;
+    left: 85%;
+}
+}
 .jon{
   background-image: url(../images/personajes/jon.jpg);
 }
